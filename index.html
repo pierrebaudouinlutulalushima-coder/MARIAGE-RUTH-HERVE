@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>
+Ruth & Hervé | Invitation
+</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+
+
+<!-- =========================
+     ECRAN D'ACCUEIL INVITÉ
+========================= -->
+
+
+<div id="welcome-screen">
+
+
+<div class="welcome-box">
+
+
+<h3>
+À l’attention de
+</h3>
+
+
+
+<h2 id="guestName">
+<Madame>Monsieur
+</h2>
+
+
+
+<p id="guestTable"></p>
+
+
+
+
+<p>
+Vous êtes invité(e) à célébrer notre union
+</p>
+
+
+
+
+<h1>
+Ruth & Hervé
+</h1>
+
+
+
+<p>
+30 Juillet 2026
+</p>
+
+
+
+
+
+<button id="enter-site">
+
+Ouvrir l’invitation
+
+</button>
+
+
+
+
+
+<br><br>
+
+
+
+
+<a href="documents/Invitation_Ruth_Herve.pdf"
+
+download="Invitation_Ruth_Herve.pdf"
+
+class="download-btn animated-download">
+
+
+<i class="fa-solid fa-file-arrow-down"></i>
+
+Télécharger l'invitation
+
+
+</a>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- =========================
+        MUSIQUE
+========================= -->
+
+
+<audio id="backgroundMusic" loop>
+
+
+<source src="audio/audio mariage.mpeg"
+
+type="audio/mpeg">
+
+
+</audio>
+
+
+
+
+
+<button id="musicBtn">
+
+
+<i class="fa-solid fa-music"></i>
+
+
+</button>
+
+
+
+
+
+
+
+<!-- =========================
+        MENU
+========================= -->
+
+
+<nav class="menu">
+
+
+<a href="#programme">
+Programme
+</a>
+
+
+
+<a href="#couple">
+Notre histoire
+</a>
+
+
+
+<a href="#gallery">
+Galerie
+</a>
+
+
+
+<a href="#rsvp">
+RSVP
+</a>
+
+
+
+<a href="#boissons">
+Réception
+</a>
+
+
+
+</nav>
+
+
+
+
+
+
+
+
+<!-- =========================
+        PROGRAMME
+========================= -->
+
+
+<section id="programme"
+
+class="page section bg-programme">
+
+
+
+
+
+<h2>
+Programme de la cérémonie
+</h2>
+
+
+
+
+
+<div class="timeline">
+
+
+
+
+
+<div class="card">
+
+
+<i class="fa-solid fa-champagne-glasses"></i>
+
+
+<h3>
+Réception
+</h3>
+
+
+<p>
+18h00 - Salle des fêtes EXODUS ARENA
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+
+<i class="fa-solid fa-camera"></i>
+
+
+<h3>
+Photos
+</h3>
+
+
+<p>
+20h00 - Séance photo du couple
+</p>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</section><!-- =========================
+        NOTRE HISTOIRE
+========================= -->
+
+
+<section id="couple"
+
+class="page section bg-couple">
+
+
+
+
+
+<h2>
+Notre Histoire
+</h2>
+
+
+
+
+
+<p class="intro-text">
+
+Sous le ciel doré où l’amour s’étend,
+deux cœurs s’unissent pour la vie.
+
+</p>
+
+
+
+
+
+
+<div class="couple-container">
+
+
+
+
+
+<div class="person">
+
+
+<h3>
+Ruth
+</h3>
+
+
+<p>
+
+Une femme douce, élégante et pleine de lumière.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="couple-image">
+
+
+<img src="IMAGES/galerie3.jpeg"
+
+alt="Ruth et Hervé">
+
+
+</div>
+
+
+
+
+
+
+
+<div class="person">
+
+
+<h3>
+Hervé
+</h3>
+
+
+<p>
+
+Un homme fort, protecteur et rempli d’amour.
+
+</p>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- VIDEO HISTOIRE DU COUPLE -->
+
+
+<div class="love-story-video">
+
+
+
+<h3>
+Notre histoire en vidéo
+</h3>
+
+
+
+
+<video controls
+
+poster="IMAGES/LOGO.png">
+
+
+
+<source src="Videos/Notre histoire.mp4"
+
+type="video/mp4">
+
+
+
+Votre navigateur ne supporte pas la vidéo.
+
+
+
+</video>
+
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =========================
+        GALERIE
+========================= -->
+
+
+<section id="gallery"
+
+class="page section bg-gallery">
+
+
+
+
+
+<h2>
+Galerie du couple
+</h2>
+
+
+
+
+
+
+<div class="gallery">
+
+
+
+
+
+<img src="IMAGES/galerie1.jpeg"
+
+onclick="openImage(this)"
+
+alt="Photo mariage">
+
+
+
+
+
+
+<img src="IMAGES/galerie2.jpeg"
+
+onclick="openImage(this)"
+
+alt="Photo mariage">
+
+
+
+
+
+
+<img src="IMAGES/galerie3.jpeg"
+
+onclick="openImage(this)"
+
+alt="Photo couple">
+
+
+
+
+
+
+<img src="IMAGES/galerie4.png"
+
+onclick="openImage(this)"
+
+alt="Photo mariage">
+
+
+
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- =========================
+        LIGHTBOX
+========================= -->
+
+
+<div id="lightbox">
+
+
+<img id="lightbox-img"
+
+alt="Image agrandie">
+
+
+</div><!-- =========================
+        RSVP
+========================= -->
+
+
+<section id="rsvp"
+
+class="page section bg-rsvp">
+
+
+
+
+
+<h2>
+Confirmer votre présence
+</h2>
+
+
+
+
+
+<form onsubmit="sendRSVP(); return false;">
+
+
+
+
+
+<input 
+
+id="name"
+
+type="text"
+
+placeholder="Nom complet"
+
+readonly
+
+required>
+
+
+
+
+
+
+
+<select id="status">
+
+
+<option>
+Je serai présent(e)
+</option>
+
+
+
+<option>
+Je serai absent(e)
+</option>
+
+
+</select>
+
+
+
+
+
+
+
+<button type="submit">
+
+
+<i class="fa-brands fa-whatsapp"></i>
+
+Confirmer via WhatsApp
+
+
+</button>
+
+
+
+
+
+</form>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =========================
+        MENU & BOISSONS
+========================= -->
+
+
+<section id="boissons"
+
+class="page section bg-boissons">
+
+
+
+
+
+<h2>
+Menu & Réception
+</h2>
+
+
+
+
+
+
+
+<div class="grid">
+
+
+
+
+
+
+<div class="box">
+
+
+<h3>
+Softs
+</h3>
+
+
+
+<p>
+
+Coca-Cola, Fanta, Sprite,
+Maltina, Vital'o
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="box">
+
+
+<h3>
+Bières
+</h3>
+
+
+
+<p>
+
+Heineken, Primus, Skol,
+Turbo King, Nkoy Black,
+Nkoy, Legend, Castel Beer,
+Mützig
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="box">
+
+
+<h3>
+Sélection Premium
+</h3>
+
+
+
+<p>
+
+Vins - Whisky - Cidre
+
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- =========================
+        FOOTER
+========================= -->
+
+
+<footer>
+
+
+
+
+
+<h2>
+Ruth & Hervé
+</h2>
+
+
+
+
+
+<p>
+
+Merci de partager ce moment précieux avec nous
+
+</p>
+
+
+
+
+
+
+
+<div class="contact-icons">
+
+
+
+
+
+<a href="tel:+243997681830">
+
+
+<i class="fa-solid fa-phone"></i>
+
+
+</a>
+
+
+
+
+
+
+
+<a href="https://wa.me/243997681830"
+
+target="_blank">
+
+
+<i class="fa-brands fa-whatsapp"></i>
+
+
+</a>
+
+
+
+
+
+
+
+<a href="mailto:ruthbirindwa07@gmail.com">
+
+
+<i class="fa-solid fa-envelope"></i>
+
+
+</a>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<a href="documents/Invitation_Ruth_Herve.pdf"
+
+download="Invitation_Ruth_Herve.pdf"
+
+class="download-btn animated-download">
+
+
+
+<i class="fa-solid fa-file-arrow-down"></i>
+
+
+Télécharger l'invitation
+
+
+
+</a>
+
+
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+<!-- =========================
+        SCRIPT
+========================= -->
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+
+</html>
